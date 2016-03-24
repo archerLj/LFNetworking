@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		416583541CA3F05800CE90AB /* NSArray+LFNetworkingMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = 4165833D1CA3F05800CE90AB /* NSArray+LFNetworkingMethods.m */; };
+		416583551CA3F05800CE90AB /* NSDictionary+LFNetworkingMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = 4165833F1CA3F05800CE90AB /* NSDictionary+LFNetworkingMethods.m */; };
+		416583561CA3F05800CE90AB /* NSObject+LFNetworkingMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = 416583411CA3F05800CE90AB /* NSObject+LFNetworkingMethods.m */; };
+		416583571CA3F05800CE90AB /* NSString+LFNetworkingMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = 416583431CA3F05800CE90AB /* NSString+LFNetworkingMethods.m */; };
+		416583581CA3F05800CE90AB /* NSURLRequest+LFNetworkingMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = 416583451CA3F05800CE90AB /* NSURLRequest+LFNetworkingMethods.m */; };
+		416583591CA3F05800CE90AB /* LFApiProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 416583481CA3F05800CE90AB /* LFApiProxy.m */; };
+		4165835A1CA3F05800CE90AB /* LFAppContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 4165834A1CA3F05800CE90AB /* LFAppContext.m */; };
+		4165835B1CA3F05800CE90AB /* LFRequestGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 4165834C1CA3F05800CE90AB /* LFRequestGenerator.m */; };
+		4165835C1CA3F05800CE90AB /* LFUpdateFileParams.m in Sources */ = {isa = PBXBuildFile; fileRef = 4165834E1CA3F05800CE90AB /* LFUpdateFileParams.m */; };
+		4165835D1CA3F05800CE90AB /* LFURLResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 416583501CA3F05800CE90AB /* LFURLResponse.m */; };
+		4165835E1CA3F05800CE90AB /* LFBaseAPIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 416583521CA3F05800CE90AB /* LFBaseAPIManager.m */; };
+		41C1E5641CA3ED3C007B7F79 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 41C1E5631CA3ED3C007B7F79 /* main.m */; };
+		41C1E5671CA3ED3C007B7F79 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 41C1E5661CA3ED3C007B7F79 /* AppDelegate.m */; };
+		41C1E56A1CA3ED3C007B7F79 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41C1E5691CA3ED3C007B7F79 /* ViewController.m */; };
+		41C1E56D1CA3ED3C007B7F79 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41C1E56B1CA3ED3C007B7F79 /* Main.storyboard */; };
+		41C1E56F1CA3ED3C007B7F79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41C1E56E1CA3ED3C007B7F79 /* Assets.xcassets */; };
+		41C1E5721CA3ED3C007B7F79 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41C1E5701CA3ED3C007B7F79 /* LaunchScreen.storyboard */; };
+		41C1E5AA1CA3ED5F007B7F79 /* LFDoctorInfoReformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 41C1E5951CA3ED5F007B7F79 /* LFDoctorInfoReformer.m */; };
+		41C1E5AB1CA3ED5F007B7F79 /* LFDoctorInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41C1E5971CA3ED5F007B7F79 /* LFDoctorInfoViewController.m */; };
+		41C1E5AC1CA3ED5F007B7F79 /* LFGetDoctorInfoManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 41C1E5991CA3ED5F007B7F79 /* LFGetDoctorInfoManager.m */; };
+		41C1E5AD1CA3ED5F007B7F79 /* LFGetInfoCenterManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 41C1E59B1CA3ED5F007B7F79 /* LFGetInfoCenterManager.m */; };
+		41C1E5AE1CA3ED5F007B7F79 /* LFUpdateImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 41C1E59D1CA3ED5F007B7F79 /* LFUpdateImageManager.m */; };
+		41C1E5AF1CA3ED5F007B7F79 /* useImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 41C1E59E1CA3ED5F007B7F79 /* useImage.png */; };
+		81C5140317604F8F50E6DCEA /* libPods-LFNetworking.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A44052E630120AA424E15EE7 /* libPods-LFNetworking.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		09FE8F94C34194BBFA3E2EAD /* Pods-LFNetworking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LFNetworking.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LFNetworking/Pods-LFNetworking.debug.xcconfig"; sourceTree = "<group>"; };
+		4165833C1CA3F05800CE90AB /* NSArray+LFNetworkingMethods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+LFNetworkingMethods.h"; sourceTree = "<group>"; };
+		4165833D1CA3F05800CE90AB /* NSArray+LFNetworkingMethods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+LFNetworkingMethods.m"; sourceTree = "<group>"; };
+		4165833E1CA3F05800CE90AB /* NSDictionary+LFNetworkingMethods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+LFNetworkingMethods.h"; sourceTree = "<group>"; };
+		4165833F1CA3F05800CE90AB /* NSDictionary+LFNetworkingMethods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+LFNetworkingMethods.m"; sourceTree = "<group>"; };
+		416583401CA3F05800CE90AB /* NSObject+LFNetworkingMethods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+LFNetworkingMethods.h"; sourceTree = "<group>"; };
+		416583411CA3F05800CE90AB /* NSObject+LFNetworkingMethods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+LFNetworkingMethods.m"; sourceTree = "<group>"; };
+		416583421CA3F05800CE90AB /* NSString+LFNetworkingMethods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+LFNetworkingMethods.h"; sourceTree = "<group>"; };
+		416583431CA3F05800CE90AB /* NSString+LFNetworkingMethods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+LFNetworkingMethods.m"; sourceTree = "<group>"; };
+		416583441CA3F05800CE90AB /* NSURLRequest+LFNetworkingMethods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURLRequest+LFNetworkingMethods.h"; sourceTree = "<group>"; };
+		416583451CA3F05800CE90AB /* NSURLRequest+LFNetworkingMethods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURLRequest+LFNetworkingMethods.m"; sourceTree = "<group>"; };
+		416583471CA3F05800CE90AB /* LFApiProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFApiProxy.h; sourceTree = "<group>"; };
+		416583481CA3F05800CE90AB /* LFApiProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFApiProxy.m; sourceTree = "<group>"; };
+		416583491CA3F05800CE90AB /* LFAppContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFAppContext.h; sourceTree = "<group>"; };
+		4165834A1CA3F05800CE90AB /* LFAppContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFAppContext.m; sourceTree = "<group>"; };
+		4165834B1CA3F05800CE90AB /* LFRequestGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFRequestGenerator.h; sourceTree = "<group>"; };
+		4165834C1CA3F05800CE90AB /* LFRequestGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFRequestGenerator.m; sourceTree = "<group>"; };
+		4165834D1CA3F05800CE90AB /* LFUpdateFileParams.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFUpdateFileParams.h; sourceTree = "<group>"; };
+		4165834E1CA3F05800CE90AB /* LFUpdateFileParams.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFUpdateFileParams.m; sourceTree = "<group>"; };
+		4165834F1CA3F05800CE90AB /* LFURLResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFURLResponse.h; sourceTree = "<group>"; };
+		416583501CA3F05800CE90AB /* LFURLResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFURLResponse.m; sourceTree = "<group>"; };
+		416583511CA3F05800CE90AB /* LFBaseAPIManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFBaseAPIManager.h; sourceTree = "<group>"; };
+		416583521CA3F05800CE90AB /* LFBaseAPIManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFBaseAPIManager.m; sourceTree = "<group>"; };
+		416583531CA3F05800CE90AB /* LFNetworkingConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFNetworkingConfiguration.h; sourceTree = "<group>"; };
+		41C1E55F1CA3ED3C007B7F79 /* LFNetworking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LFNetworking.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		41C1E5631CA3ED3C007B7F79 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		41C1E5651CA3ED3C007B7F79 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		41C1E5661CA3ED3C007B7F79 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		41C1E5681CA3ED3C007B7F79 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		41C1E5691CA3ED3C007B7F79 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		41C1E56C1CA3ED3C007B7F79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		41C1E56E1CA3ED3C007B7F79 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		41C1E5711CA3ED3C007B7F79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		41C1E5731CA3ED3C007B7F79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41C1E5941CA3ED5F007B7F79 /* LFDoctorInfoReformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFDoctorInfoReformer.h; sourceTree = "<group>"; };
+		41C1E5951CA3ED5F007B7F79 /* LFDoctorInfoReformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFDoctorInfoReformer.m; sourceTree = "<group>"; };
+		41C1E5961CA3ED5F007B7F79 /* LFDoctorInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFDoctorInfoViewController.h; sourceTree = "<group>"; };
+		41C1E5971CA3ED5F007B7F79 /* LFDoctorInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFDoctorInfoViewController.m; sourceTree = "<group>"; };
+		41C1E5981CA3ED5F007B7F79 /* LFGetDoctorInfoManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFGetDoctorInfoManager.h; sourceTree = "<group>"; };
+		41C1E5991CA3ED5F007B7F79 /* LFGetDoctorInfoManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFGetDoctorInfoManager.m; sourceTree = "<group>"; };
+		41C1E59A1CA3ED5F007B7F79 /* LFGetInfoCenterManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFGetInfoCenterManager.h; sourceTree = "<group>"; };
+		41C1E59B1CA3ED5F007B7F79 /* LFGetInfoCenterManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFGetInfoCenterManager.m; sourceTree = "<group>"; };
+		41C1E59C1CA3ED5F007B7F79 /* LFUpdateImageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFUpdateImageManager.h; sourceTree = "<group>"; };
+		41C1E59D1CA3ED5F007B7F79 /* LFUpdateImageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFUpdateImageManager.m; sourceTree = "<group>"; };
+		41C1E59E1CA3ED5F007B7F79 /* useImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = useImage.png; sourceTree = "<group>"; };
+		8E2C3C08B12ABEB703080840 /* Pods-LFNetworking.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LFNetworking.release.xcconfig"; path = "Pods/Target Support Files/Pods-LFNetworking/Pods-LFNetworking.release.xcconfig"; sourceTree = "<group>"; };
+		A44052E630120AA424E15EE7 /* libPods-LFNetworking.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LFNetworking.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		41C1E55C1CA3ED3C007B7F79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81C5140317604F8F50E6DCEA /* libPods-LFNetworking.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4165833A1CA3F05800CE90AB /* LFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				4165833B1CA3F05800CE90AB /* Catogerys */,
+				416583461CA3F05800CE90AB /* Components */,
+				416583511CA3F05800CE90AB /* LFBaseAPIManager.h */,
+				416583521CA3F05800CE90AB /* LFBaseAPIManager.m */,
+				416583531CA3F05800CE90AB /* LFNetworkingConfiguration.h */,
+			);
+			path = LFNetworking;
+			sourceTree = "<group>";
+		};
+		4165833B1CA3F05800CE90AB /* Catogerys */ = {
+			isa = PBXGroup;
+			children = (
+				4165833C1CA3F05800CE90AB /* NSArray+LFNetworkingMethods.h */,
+				4165833D1CA3F05800CE90AB /* NSArray+LFNetworkingMethods.m */,
+				4165833E1CA3F05800CE90AB /* NSDictionary+LFNetworkingMethods.h */,
+				4165833F1CA3F05800CE90AB /* NSDictionary+LFNetworkingMethods.m */,
+				416583401CA3F05800CE90AB /* NSObject+LFNetworkingMethods.h */,
+				416583411CA3F05800CE90AB /* NSObject+LFNetworkingMethods.m */,
+				416583421CA3F05800CE90AB /* NSString+LFNetworkingMethods.h */,
+				416583431CA3F05800CE90AB /* NSString+LFNetworkingMethods.m */,
+				416583441CA3F05800CE90AB /* NSURLRequest+LFNetworkingMethods.h */,
+				416583451CA3F05800CE90AB /* NSURLRequest+LFNetworkingMethods.m */,
+			);
+			path = Catogerys;
+			sourceTree = "<group>";
+		};
+		416583461CA3F05800CE90AB /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				416583471CA3F05800CE90AB /* LFApiProxy.h */,
+				416583481CA3F05800CE90AB /* LFApiProxy.m */,
+				416583491CA3F05800CE90AB /* LFAppContext.h */,
+				4165834A1CA3F05800CE90AB /* LFAppContext.m */,
+				4165834B1CA3F05800CE90AB /* LFRequestGenerator.h */,
+				4165834C1CA3F05800CE90AB /* LFRequestGenerator.m */,
+				4165834D1CA3F05800CE90AB /* LFUpdateFileParams.h */,
+				4165834E1CA3F05800CE90AB /* LFUpdateFileParams.m */,
+				4165834F1CA3F05800CE90AB /* LFURLResponse.h */,
+				416583501CA3F05800CE90AB /* LFURLResponse.m */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		41C1E5561CA3ED3C007B7F79 = {
+			isa = PBXGroup;
+			children = (
+				41C1E5611CA3ED3C007B7F79 /* LFNetworking */,
+				41C1E5601CA3ED3C007B7F79 /* Products */,
+				80D8123BEE7B58AC99F34A1C /* Pods */,
+				8CE12DA1DA44B241A7C820A7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		41C1E5601CA3ED3C007B7F79 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				41C1E55F1CA3ED3C007B7F79 /* LFNetworking.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		41C1E5611CA3ED3C007B7F79 /* LFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				4165833A1CA3F05800CE90AB /* LFNetworking */,
+				41C1E5931CA3ED5F007B7F79 /* TestCase */,
+				41C1E59E1CA3ED5F007B7F79 /* useImage.png */,
+				41C1E5651CA3ED3C007B7F79 /* AppDelegate.h */,
+				41C1E5661CA3ED3C007B7F79 /* AppDelegate.m */,
+				41C1E5681CA3ED3C007B7F79 /* ViewController.h */,
+				41C1E5691CA3ED3C007B7F79 /* ViewController.m */,
+				41C1E56B1CA3ED3C007B7F79 /* Main.storyboard */,
+				41C1E56E1CA3ED3C007B7F79 /* Assets.xcassets */,
+				41C1E5701CA3ED3C007B7F79 /* LaunchScreen.storyboard */,
+				41C1E5731CA3ED3C007B7F79 /* Info.plist */,
+				41C1E5621CA3ED3C007B7F79 /* Supporting Files */,
+			);
+			path = LFNetworking;
+			sourceTree = "<group>";
+		};
+		41C1E5621CA3ED3C007B7F79 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				41C1E5631CA3ED3C007B7F79 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		41C1E5931CA3ED5F007B7F79 /* TestCase */ = {
+			isa = PBXGroup;
+			children = (
+				41C1E5B11CA3EDF9007B7F79 /* reformer */,
+				41C1E5B01CA3EDE6007B7F79 /* manager */,
+				41C1E5961CA3ED5F007B7F79 /* LFDoctorInfoViewController.h */,
+				41C1E5971CA3ED5F007B7F79 /* LFDoctorInfoViewController.m */,
+			);
+			path = TestCase;
+			sourceTree = "<group>";
+		};
+		41C1E5B01CA3EDE6007B7F79 /* manager */ = {
+			isa = PBXGroup;
+			children = (
+				41C1E5981CA3ED5F007B7F79 /* LFGetDoctorInfoManager.h */,
+				41C1E5991CA3ED5F007B7F79 /* LFGetDoctorInfoManager.m */,
+				41C1E59A1CA3ED5F007B7F79 /* LFGetInfoCenterManager.h */,
+				41C1E59B1CA3ED5F007B7F79 /* LFGetInfoCenterManager.m */,
+				41C1E59C1CA3ED5F007B7F79 /* LFUpdateImageManager.h */,
+				41C1E59D1CA3ED5F007B7F79 /* LFUpdateImageManager.m */,
+			);
+			name = manager;
+			sourceTree = "<group>";
+		};
+		41C1E5B11CA3EDF9007B7F79 /* reformer */ = {
+			isa = PBXGroup;
+			children = (
+				41C1E5941CA3ED5F007B7F79 /* LFDoctorInfoReformer.h */,
+				41C1E5951CA3ED5F007B7F79 /* LFDoctorInfoReformer.m */,
+			);
+			name = reformer;
+			sourceTree = "<group>";
+		};
+		80D8123BEE7B58AC99F34A1C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				09FE8F94C34194BBFA3E2EAD /* Pods-LFNetworking.debug.xcconfig */,
+				8E2C3C08B12ABEB703080840 /* Pods-LFNetworking.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8CE12DA1DA44B241A7C820A7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A44052E630120AA424E15EE7 /* libPods-LFNetworking.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		41C1E55E1CA3ED3C007B7F79 /* LFNetworking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41C1E5761CA3ED3C007B7F79 /* Build configuration list for PBXNativeTarget "LFNetworking" */;
+			buildPhases = (
+				BF6762ADCBA12CDCC385D210 /* Check Pods Manifest.lock */,
+				41C1E55B1CA3ED3C007B7F79 /* Sources */,
+				41C1E55C1CA3ED3C007B7F79 /* Frameworks */,
+				41C1E55D1CA3ED3C007B7F79 /* Resources */,
+				C6EA19859F773CC1414791D3 /* Embed Pods Frameworks */,
+				5BB5B85030ACB2018E12CF54 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LFNetworking;
+			productName = LFNetworking;
+			productReference = 41C1E55F1CA3ED3C007B7F79 /* LFNetworking.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		41C1E5571CA3ED3C007B7F79 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = archerLj;
+				TargetAttributes = {
+					41C1E55E1CA3ED3C007B7F79 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 41C1E55A1CA3ED3C007B7F79 /* Build configuration list for PBXProject "LFNetworking" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 41C1E5561CA3ED3C007B7F79;
+			productRefGroup = 41C1E5601CA3ED3C007B7F79 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				41C1E55E1CA3ED3C007B7F79 /* LFNetworking */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		41C1E55D1CA3ED3C007B7F79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41C1E5721CA3ED3C007B7F79 /* LaunchScreen.storyboard in Resources */,
+				41C1E56F1CA3ED3C007B7F79 /* Assets.xcassets in Resources */,
+				41C1E56D1CA3ED3C007B7F79 /* Main.storyboard in Resources */,
+				41C1E5AF1CA3ED5F007B7F79 /* useImage.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5BB5B85030ACB2018E12CF54 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LFNetworking/Pods-LFNetworking-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BF6762ADCBA12CDCC385D210 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C6EA19859F773CC1414791D3 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LFNetworking/Pods-LFNetworking-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		41C1E55B1CA3ED3C007B7F79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41C1E56A1CA3ED3C007B7F79 /* ViewController.m in Sources */,
+				4165835D1CA3F05800CE90AB /* LFURLResponse.m in Sources */,
+				416583571CA3F05800CE90AB /* NSString+LFNetworkingMethods.m in Sources */,
+				4165835E1CA3F05800CE90AB /* LFBaseAPIManager.m in Sources */,
+				41C1E5AC1CA3ED5F007B7F79 /* LFGetDoctorInfoManager.m in Sources */,
+				41C1E5AA1CA3ED5F007B7F79 /* LFDoctorInfoReformer.m in Sources */,
+				4165835B1CA3F05800CE90AB /* LFRequestGenerator.m in Sources */,
+				416583581CA3F05800CE90AB /* NSURLRequest+LFNetworkingMethods.m in Sources */,
+				416583591CA3F05800CE90AB /* LFApiProxy.m in Sources */,
+				41C1E5671CA3ED3C007B7F79 /* AppDelegate.m in Sources */,
+				416583561CA3F05800CE90AB /* NSObject+LFNetworkingMethods.m in Sources */,
+				4165835A1CA3F05800CE90AB /* LFAppContext.m in Sources */,
+				41C1E5AE1CA3ED5F007B7F79 /* LFUpdateImageManager.m in Sources */,
+				4165835C1CA3F05800CE90AB /* LFUpdateFileParams.m in Sources */,
+				416583551CA3F05800CE90AB /* NSDictionary+LFNetworkingMethods.m in Sources */,
+				41C1E5641CA3ED3C007B7F79 /* main.m in Sources */,
+				416583541CA3F05800CE90AB /* NSArray+LFNetworkingMethods.m in Sources */,
+				41C1E5AB1CA3ED5F007B7F79 /* LFDoctorInfoViewController.m in Sources */,
+				41C1E5AD1CA3ED5F007B7F79 /* LFGetInfoCenterManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		41C1E56B1CA3ED3C007B7F79 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				41C1E56C1CA3ED3C007B7F79 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		41C1E5701CA3ED3C007B7F79 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				41C1E5711CA3ED3C007B7F79 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		41C1E5741CA3ED3C007B7F79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		41C1E5751CA3ED3C007B7F79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		41C1E5771CA3ED3C007B7F79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09FE8F94C34194BBFA3E2EAD /* Pods-LFNetworking.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LFNetworking/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lj0011977163.com.LFNetworking;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		41C1E5781CA3ED3C007B7F79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E2C3C08B12ABEB703080840 /* Pods-LFNetworking.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LFNetworking/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lj0011977163.com.LFNetworking;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		41C1E55A1CA3ED3C007B7F79 /* Build configuration list for PBXProject "LFNetworking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41C1E5741CA3ED3C007B7F79 /* Debug */,
+				41C1E5751CA3ED3C007B7F79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41C1E5761CA3ED3C007B7F79 /* Build configuration list for PBXNativeTarget "LFNetworking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41C1E5771CA3ED3C007B7F79 /* Debug */,
+				41C1E5781CA3ED3C007B7F79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 41C1E5571CA3ED3C007B7F79 /* Project object */;
+}
